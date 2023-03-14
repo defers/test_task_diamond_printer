@@ -24,7 +24,6 @@ public class DiamondPrinterImpl implements DiamondPrinter {
         var offset = 0;
 
         for (var i = 0; i < height; i++) {
-
             if (i == 0 || i == height - 1) printFirstAndLastLine(halfWidth);
             else printBodyLine(cursorLeft, cursorRight);
 
